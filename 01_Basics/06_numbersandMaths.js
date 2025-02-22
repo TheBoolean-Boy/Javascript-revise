@@ -1,21 +1,21 @@
 const score = 400
 
 const you = new Number(100.78996)
-// console.log(typeof you.toFixed(3))
+console.log( you.toFixed(3))
 // console.log(typeof you)
 
 // console.log(you.toString().substring(0,5))
 
 const yours = 100.78
-// console.log(yours.toPrecision(6))
+console.log(yours.toPrecision(6))
 // console.log(typeof yours.toPrecision(6))
 
 const hundreds = 100423423423
 // console.log(hundreds.toLocaleString('en-IN'));
-// console.log(typeof hundreds.toLocaleString('en-IN'));
+console.log(typeof hundreds.toLocaleString('en-IN'));
 
 
-// ----------------------Maths------------------------------
+// ------------------------Maths------------------------------
 // const arr = [4,  8, 9, 90]
 
 // console.log(Math.floor(7.8))
@@ -23,8 +23,8 @@ const hundreds = 100423423423
 // console.log(Math.round(4.1));
 // console.log(Math.round(4.6));
 // console.log(Math.abs(-9))
-// console.log(Math.max(4,  8, 9, 90))
-// console.log(Math.min(4,  8, 9, 90));
+// console.log(Math.max(4, 8, 9, 90))
+// console.log(Math.min(4, 8, 9, 90));
 
 // console.log(Math.random())
 // console.log(Math.random()*10000)
