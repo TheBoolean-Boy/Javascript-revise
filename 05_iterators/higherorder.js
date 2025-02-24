@@ -30,6 +30,6 @@ mp.set("in", "India")
 mp.set("ban", "Bangladesh")
 mp.set("us", "United States of America")
 
-for (const [key, value] of mp) {
-    console.log(`${key} represents ${value}`);   
+for (const [k, v] of mp) {
+    console.log(`${k} represents ${v}`);   
 }
