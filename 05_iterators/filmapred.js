@@ -24,13 +24,23 @@ const books = [
 
   let myBooks = books.filter( (bk) => bk.genre === 'Non-Fiction')
   
-  myBooks = books.filter( (bk) => {
-    if (bk.genre === 'Fiction' && bk.publish >= 2000){
-        return bk
-    }
-  })
+  // myBooks = books.filter( (bk) => {
+  //   if (bk.genre === 'Fiction'){
+  //       return bk
+  //   }
+  // })
+
+  myBooks = books.filter((bk) => bk.genre === 'Fiction')
+  // myBooks = books.map((bk) =>{
+  //   return bk.publish > 1990
+  // })
+  // console.log(myBooks);
   
-  myBooks.forEach( (item) => {
+  myBooks.map( (item) => {
     console.log(`Accroding to your need we have a title called${item.title} published in the year ${item.publish} and latest edition of ${item.edition}`)
   })
+
+  // myBooks.map((bk) => {
+  //   console.log(`${bk.edition} edition available`)
+  // })
   
